@@ -9,12 +9,12 @@
     justify-content: center;
 }
 
-.gallery-item:not(:first-child) {
-    margin-left: 30px;
-} 
 .gallery-item{
     /*width: 370px;*/
     flex-basis: calc((100% - 90px) / 3);
+    &:not(:first-child) {
+        margin-left: 30px;
+    } 
     
 }
 .gallery-top-wrapper{

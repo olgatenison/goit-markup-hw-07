@@ -48,7 +48,7 @@
 
     right: 8px;
     top: 8px;
-    @extend %align-items
+    @extend %align-items;
     justify-content: center;
     
 }

@@ -1,4 +1,4 @@
-.advantage-list{
+.advantage-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -7,11 +7,11 @@
 /* .advantage-list{margin-left: -30px;
     margin-top: -30px;
 }
-    .advantage-item:nth-child(n + 4) {
+    .advantage-list__item:nth-child(n + 4) {
     margin-top: 30px;   
 } */
 
-.advantage-item{
+.advantage-item {
     flex-basis: calc((100% - 120px) / 4);
     
     &:not(:first-child) {

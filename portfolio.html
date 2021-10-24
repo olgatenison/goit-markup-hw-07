@@ -54,11 +54,11 @@
         </div>  
     </header>
     <main>
-       <!--портфолио--> 
+<!--portfolio--> 
        <section class="portfolio section">
         <div class="container">
             <h2 class="visually-hidden">Портфолио</h2>
-            <!--Cортировка-->
+<!--Cортировка-->
             <ul class="portfolio-options-list list">
 
                 <li class="portfolio-options-item">
@@ -82,7 +82,7 @@
                     <button class="portfolio-btn btn" type="button">Маркетинг</button>
                 </li>
             </ul>
-            <!--Карточки продукта-->
+<!--portfolio-product-->
             <ul class="portfolio-product-list list">
 
                 <li class="portfolio-product-item">
@@ -249,50 +249,53 @@
         </div>
        </section>
     </main>
-<!------футер-->
+<!------footer-->
 <footer class="footer">
     <div class="container footer-info">
-        <div class="footer-left">
-        <a class="footer-logo link" href="/">Web<span class="footer-logo-text">Studio</span></a>
-        <address class="footer-adress">
-            
+        <div class="footer__left">
+        <a class="footer-logo link" href="/">Web<span class="footer-logo__text">Studio</span></a>
+        <address>
                 <ul class="footer-adress-list list">
-                    <li class="footer-adress-item"><a class="footer-adress-link footer-adress-main link" href="">г. Киев, пр-т Леси Украинки, 26 </a></li>
-                    <li class="footer-adress-item"><a class="footer-adress-link link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="footer-adress-item"><a class="footer-adress-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li class="footer-adress-list__item">
+                        <a class="footer-adress-list__link footer-adress-list__main link" href="">г. Киев, пр-т Леси Украинки, 26 </a></li>
+                    <li class="footer-adress-list__item">
+                        <a class="footer-adress-list__link link" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="footer-adress-list__item">
+                        <a class="footer-adress-list__link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
         </address>
         </div>
-        <div class="footer-right">
-            <h3 class="footer-text">присоединяйтесь</h3>
+
+        <div class="footer__center">
+            <h3 class="footer__title">присоединяйтесь</h3>
             <ul class="footer-social-list social-list list">
-                <li class="social-item link">
-                     <a href="" class="footer-social-link link">
-                        <svg class="footer-social-icon">
+                <li class="social-list__item link">
+                     <a href="" class="footer-social-list__link link">
+                        <svg class="footer-social-list__icon">
                             <use href="./images/sprite.svg#icon-instagram">
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-item link">
-                    <a href="" class="footer-social-link link">
-                        <svg class="footer-social-icon">
+                <li class="social-list__item link">
+                    <a href="" class="footer-social-list__link link">
+                        <svg class="footer-social-list__icon">
                             <use href="./images/sprite.svg#icon-twitter">
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-item link">
-                    <a href="" class="footer-social-link link">
-                        <svg class="footer-social-icon">
+                <li class="social-list__item link">
+                    <a href="" class="footer-social-list__link link">
+                        <svg class="footer-social-list__icon">
                             <use href="./images/sprite.svg#icon-facebook">
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-item link">
-                    <a href="" class="footer-social-link link">
-                        <svg class="footer-social-icon">
+                <li class="social-list__item link">
+                    <a href="" class="footer-social-list__link link">
+                        <svg class="footer-social-list__icon">
                             <use href="./images/sprite.svg#icon-linkedin">
                             </use>
                         </svg>
@@ -300,19 +303,20 @@
                 </li>
             </ul>
         </div>
-        <div class="signup-wrap-container">
+
+        <div class="footer__left">
             <section class="signup">
-                <h3 class="signup-title">
+                <h3 class="signup__title">
                     подпишитесь на рассылку
                 </h3>
                 <form action="#" class="signup-form" name="signup_form" >
                     <div class="footer-input">
                         <label>
-                        
                         <input 
                         class="signup-input"
                         type="email" 
                         name="email" 
+                        id="email"
                         placeholder="E-mail"
                         />
                         </label>

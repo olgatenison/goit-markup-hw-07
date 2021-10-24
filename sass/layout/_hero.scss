@@ -30,9 +30,11 @@
 
 .hero__btn { 
     color: var(--primary-title-color);
-    @include font (14px, 700, 1.14, 0.03em);
+    @include font (16px, 700, 1.14, 0.03em);
     padding: 10px 32px;
     background-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
 
     display: inline-block;
     align-items: center;

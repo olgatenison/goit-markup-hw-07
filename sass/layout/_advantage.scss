@@ -11,27 +11,27 @@
     margin-top: 30px;   
 } */
 
-.advantage-item {
+.advantage-list__item {
     flex-basis: calc((100% - 120px) / 4);
-    
     &:not(:first-child) {
         margin-left: 30px;
     }
 }
-.advantage-theme{
+.advantage-list__theme{
     @include font (14px, 700, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--primary-text-color);
     margin-bottom: 10px;
 }
-.advantage-text{
+.advantage-list__text{
     line-height: 1.71;
     color: var(--secondary-text-color);
 }
-.advantage-item-bg{
+.advantage-list__item-bg{
     background-color:var(--btm-primary-color);
     border-radius: 4px;
     height: 120px;
+    
     display: flex; 
     align-items: center; 
     justify-content: center;

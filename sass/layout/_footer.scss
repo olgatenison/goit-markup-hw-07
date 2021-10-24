@@ -3,22 +3,25 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+   
+}
 .footer .footer-logo {
     margin-bottom: 20px;  
     display:block;
+    margin-right: 70px;
 }
 .footer-logo {
     font-family: Raleway;
     @include font (26px, 700, 1.19, 0.03em);
     color: var(--accent-color);
 }
-
-.footer-logo-text{
+.footer-logo__text{
     color: var(--primary-title-color);  
 }
 
-.footer-adress-link{
+.footer-adress-list__link {
     @include font (14px, 400, 1.71, 0.03em);
+    font-style: normal;
     color: #FFFFFF99;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -28,16 +31,17 @@
     }
 }
 
-.footer-adress-main{
+.footer-adress-list__main {
     color: var(--primary-title-color);
+    font-style: normal;
 }
 
-.footer-adress-item{
+.footer-adress-list__item{
     &:not(:last-child){
         margin-bottom: 9px;
     }
 }
-.footer-text, .signup-title {
+.footer__title, .signup__title {
     @include font (14px, 600, 1.17, 0.03em);
     font-style: normal;
     text-transform: uppercase;
@@ -45,12 +49,11 @@
     margin-bottom: 20px;
 }
 
+
 .footer-social-list{
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
+    display: flex;
 }
-.footer-social-link {
+.footer-social-list__link {
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -67,12 +70,12 @@
         background-color: var(--accent-color);
     }
 }
-
-.footer-social-icon {
+.footer-social-list__icon {
     width: 20px;
     height: 20px;
     fill: #FFFFFF;
 }
+
 .footer-info{
     display: flex;
     align-items: flex-start;

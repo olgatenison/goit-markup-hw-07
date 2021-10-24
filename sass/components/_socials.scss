@@ -1,10 +1,10 @@
-.team-social-list{
+.team-list__social-list{
     display: flex; 
     align-items: center; 
     justify-content: center;
         
 }
-.social-item{
+.social-list__item{
     width: 44px;
     height: 44px;
     &:not(:last-child){
@@ -12,7 +12,7 @@
     }
 }   
 
-.social-link {
+.social-list__link {
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -27,13 +27,13 @@
     &:focus {
         background-color: var(--accent-color);
     }
-    &:hover .social-icon-team,
-    &:focus .social-icon-team {
+    &:hover .social-list__icon-team,
+    &:focus .social-list__icon-team {
         fill: var(--background-main-color);
     }
 }
 
-.social-icon-team {
+.social-list__icon-team {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;

@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.gallery-item{
+.gallery-list__item{
     /*width: 370px;*/
     flex-basis: calc((100% - 90px) / 3);
     &:not(:first-child) {
@@ -17,11 +17,11 @@
     } 
     
 }
-.gallery-top-wrapper{
+.gallery-list__top-wrapper{
     position: relative;
 }
 
-.gallery-top-txt{
+.gallery-list__top-txt{
     position: absolute;
     bottom: 0;
     left: 0;

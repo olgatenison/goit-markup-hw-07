@@ -1,15 +1,11 @@
 
 .clients-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align-item;
     flex-wrap: wrap;
 }
    
 .client-link{
-    display: flex; 
-    align-items: center;  
-    justify-content: center;
+    @extend %align-items;
     width: 170px;
     height: 92px;
     border: 1px solid var(--clients-logo-color);

@@ -19,8 +19,7 @@
     }
 }
 .advantage-theme{
-    font-weight: 700;
-    line-height: 1.14;
+    @include font (14px, 700, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--primary-text-color);
     margin-bottom: 10px;
@@ -33,9 +32,7 @@
     background-color:var(--btm-primary-color);
     border-radius: 4px;
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align-item;
 
     margin-bottom: 30px;
 }

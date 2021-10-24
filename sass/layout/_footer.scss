@@ -9,9 +9,7 @@
 }
 .footer-logo {
     font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
+    @include font (26px, 700, 1.19, 0.03em);
     color: var(--accent-color);
 }
 
@@ -20,8 +18,7 @@
 }
 
 .footer-adress-link{
-    font-style: normal;
-    line-height: 1.71;
+    @include font (14px, 400, 1.71, 0.03em);
     color: #FFFFFF99;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -41,25 +38,19 @@
     }
 }
 .footer-text, .signup-title {
+    @include font (14px, 600, 1.17, 0.03em);
     font-style: normal;
-    font-weight: bold;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-title-color);
     margin-bottom: 20px;
 }
 
 .footer-social-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align-items;
 }
 .footer-social-link {
-    display: flex; 
-    align-items: center;  
-    justify-content: center;
-
+    @extend %align-items;
+    
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -102,8 +93,8 @@
     margin-right: 15px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &::placeholder {
-        font-size: 16px;
-        line-height: 1.25;
+        @include font (16px, 400, 1.25, 0.03em);
+
         display: flex;
         align-items: center;
         color: rgba(255, 255, 255, 0.6);
@@ -127,16 +118,8 @@
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    
-    display: flex;
-       
-    align-items: center;
-    justify-content: center;
+    @include font (16px, 600, 1.87, 0.03em);
+    @extend %align-item;
     letter-spacing: 0.06em;
 
     color: #FFFFFF;

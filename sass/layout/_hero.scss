@@ -18,10 +18,7 @@
 }
 .hero-title {
     font-family: Roboto;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    @include font (44px, 900, 1.36, 0.06em);
     text-transform: uppercase;
     color: var(--primary-title-color);
 
@@ -33,7 +30,7 @@
 
 .hero-btn { 
     color: var(--primary-title-color);
-    font-weight: 700;
+    @include font (14px, 700, 1.14, 0.03em);
     padding: 10px 32px;
     background-color: var(--accent-color);
 

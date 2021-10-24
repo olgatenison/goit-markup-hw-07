@@ -16,7 +16,7 @@
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.hero-title {
+.hero__title {
     font-family: Roboto;
     @include font (44px, 900, 1.36, 0.06em);
     text-transform: uppercase;
@@ -28,7 +28,7 @@
     
 }
 
-.hero-btn { 
+.hero__btn { 
     color: var(--primary-title-color);
     @include font (14px, 700, 1.14, 0.03em);
     padding: 10px 32px;
@@ -44,3 +44,4 @@
         background-color:#188CE8;
     }
 }
+

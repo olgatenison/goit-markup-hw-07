@@ -33,6 +33,8 @@
     
     background: rgba(47, 48, 58, 0.8);
     height: 70px;
-    @extend %align-item;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
  
 }

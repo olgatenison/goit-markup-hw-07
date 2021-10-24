@@ -46,10 +46,14 @@
 }
 
 .footer-social-list{
-    @extend %align-items;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 .footer-social-link {
-    @extend %align-items;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
     
     width: 100%;
     height: 100%;

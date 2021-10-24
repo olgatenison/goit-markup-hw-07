@@ -1,5 +1,7 @@
 .portfolio-options-list{
-    @extend %align-item;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 
     margin-bottom: 50px;
 }

@@ -1,5 +1,7 @@
 .team-social-list{
-    @extend %align-item;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
         
 }
 .social-item{
